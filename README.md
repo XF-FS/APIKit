@@ -65,7 +65,24 @@ APIKit Pro 是基于 [API-Security/APIKit](https://github.com/API-Security/APIKi
 <img width="3200" height="580" alt="高级过滤功能" src="https://github.com/user-attachments/assets/cec6f316-e3b1-42c9-af3b-9336acc43bbb" />
 
 
-### 版本 1.6.3 重点优化
+### [1.6.4] - 2025-09-20
+
+#### 新增功能
+- **API详情表格新增Method列**：在API详情表格中新增"Method"列，显示HTTP请求方式（GET、POST、PUT、DELETE等）
+- **智能请求方法识别**：自动从HTTP请求中提取并识别请求方法类型
+
+#### 界面优化
+- 重新调整表格列顺序，Method列位于Name列之后，便于快速识别API请求类型
+- 优化表格列宽设置，确保Method列内容完整显示
+
+#### 技术改进
+- 增强`ApiDetailEntity`类，新增method字段用于存储HTTP请求方法
+- 优化`PassiveScanner`中的请求解析逻辑，提高方法识别准确性
+- 更新表格模型，支持8列数据显示
+
+---
+
+### [1.6.3]
 
 #### 用户界面增强
 - API接口列表新增序号列
@@ -76,6 +93,51 @@ APIKit Pro 是基于 [API-Security/APIKit](https://github.com/API-Security/APIKi
 - 减少API接口重复扫描
 - 提高过滤逻辑准确性
 - 优化网络请求处理
+
+---
+
+### [1.6.2]
+
+#### 功能改进
+- 优化扫描控制逻辑
+- 增强API类型识别准确性
+
+#### 修复问题
+- 修复部分场景下的扫描异常
+- 优化内存使用
+
+---
+
+### [1.6.1]
+
+#### 新增功能
+- 支持自定义Bypass扫描后缀
+- 增加Cookie保留功能
+- 新增路径和主机过滤功能
+
+#### 安全增强
+- 提升API安全测试覆盖率
+- 优化绕过检测机制
+
+---
+
+### [1.6.0]
+
+#### 重大更新
+- 基于API-Security/APIKit进行全面优化
+- 重构扫描引擎，提升性能和稳定性
+- 新增多种API类型支持（REST、Swagger、GraphQL、SOAP）
+
+#### 核心功能
+- 智能扫描控制
+- 多维度API识别
+- 自动/手动扫描模式切换
+- 精细化过滤控制
+
+#### 界面改进
+- 全新的用户界面设计
+- 优化的配置面板
+- 增强的API详情展示
 
 ## 使用示例
 
