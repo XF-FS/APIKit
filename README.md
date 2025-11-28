@@ -1,4 +1,4 @@
-# 当前这个插件有点不兼容当前的swagger3.0的API接口，目前相对这个插件进行优化，可以看看这个issue投票看看后续计划
+# 当前这个插件有点不兼容当前的swagger3.0的API接口，在扫描的设计上也有点缺陷，目前相对这个插件进行优化，可以看看这个issue投票看看后续计划
 [优化建议](https://github.com/XF-FS/APIKit/issues/10)
 
 # APIKit Pro
